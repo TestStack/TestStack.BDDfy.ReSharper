@@ -1,25 +1,24 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>ReSharper.InternalsVisibleTo</id>
+    <id>ReSharper.BDDfy</id>
     <version>$version$</version>
     <authors>Igal Tabachnik</authors>
     <owners>Igal Tabachnik</owners>
-    <title>InternalsVisibleTo Helper for ReSharper</title>
+    <title>BDDfy Support for ReSharper</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <licenseUrl>https://raw.github.com/hmemcpy/ReSharper.InternalsVisibleTo/master/License.txt</licenseUrl>
-    <description>Provides IntelliSense completion for the InternalsVisibleTo attribute, including the public key value, when required.</description>
-    <releaseNotes>Support for ReSharper 8.1</releaseNotes>
-    <projectUrl>https://github.com/hmemcpy/ReSharper.InternalsVisibleTo</projectUrl>
-    <iconUrl>https://raw.github.com/hmemcpy/ReSharper.InternalsVisibleTo/master/logo.png</iconUrl>
-    <copyright>Copyright &#x00A9; 2013, 2014 Igal Tabachnik</copyright>
-    <tags>resharper internalsvisibleto publickey tests unit test nunit mstest xunit</tags>
+    <licenseUrl>https://raw.github.com/hmemcpy/ReSharper.BDDfy/master/License.txt</licenseUrl>
+    <description>Prevents ReSharper from flagging types using BDDfy as 'unused'.</description>
+    <releaseNotes></releaseNotes>
+    <projectUrl>https://github.com/hmemcpy/ReSharper.BDDfy</projectUrl>
+    <iconUrl>https://raw.github.com/hmemcpy/ReSharper.BDDfy/master/logo.png</iconUrl>
+    <copyright>Copyright &#x00A9; 2014 Igal Tabachnik</copyright>
+    <tags>resharper bddfy bdd tests unit test nunit mstest xunit servicestack</tags>
     <dependencies>
-      <dependency id="Resharper" version="[8.1,8.3)"/>
+      <dependency id="Resharper" version="[8.2,8.3)"/>
     </dependencies>
   </metadata>
   <files>
-    <file src="..\output\$configuration$\8.1\*.*" target="ReSharper\v8.1\plugins"/>
     <file src="..\output\$configuration$\8.2\*.*" target="ReSharper\v8.2\plugins"/>
   </files>
 </package>
